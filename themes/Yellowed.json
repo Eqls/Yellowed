@@ -317,7 +317,6 @@
         {
             "name": "Grey",
             "scope": [
-                "comment",
                 "emphasis",
                 "markup.inline.raw.string.markdown",
                 "punctuation.definition.char.begin.cs",
@@ -332,6 +331,46 @@
             ],
             "settings": {
                 "foreground": "#6b6b6b"
+            }
+        },
+        {
+            "name": "Quartz",
+            "scope": [
+                "keyword.type",
+                "constant.numeric",
+                "keyword.constant.default",
+            ],
+            "settings": {
+                "foreground": "#95a99f"
+            }
+        },
+        {
+            "name": "Brown",
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#cc8c3c"
+            }
+        },
+        {
+            "name": "Brown: Bold",
+            "scope": [
+                "keyword.todo"
+            ],
+            "settings": {
+                "foreground": "#cc8c3c",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Niagara",
+            "scope": [
+                "entity.name.function",
+                "entity.name.function-call"
+            ],
+            "settings": {
+                "foreground": "#96a6c8"
             }
         },
         {
@@ -377,17 +416,9 @@
         {
             "name": "Yellow",
             "scope": [
-                "constant.numeric",
-                "entity.name.function.operator.cpp",
-                "entity.name.function.operator.member.cpp",
                 "entity.name.tag",
                 "entity.name.tag.class.js",
                 "entity.name.type.kotlin",
-                "keyword",
-                "keyword.operator",
-                "keyword.operator.logical",
-                "keyword.type",
-                "keyword.type.cs",
                 "markup.quote.markdown",
                 "meta.if.declaration.matlab",
                 "meta.parameter-clause.swift",
@@ -449,13 +480,15 @@
                 "storage.type.function.python",
                 "storage.type.function.swift",
                 "storage.type.js",
+                "storage.type.function.zig",
                 "storage.type.package.kotlin",
                 "storage.type.variable.kotlin",
                 "storage.modifier.c",
                 "storage.modifier.cs",
                 "storage.modifier.hx",
                 "storage.modifier.specifier.const.cpp",
-                "storage.modifier.java"
+                "storage.modifier.java",
+                "keyword.structure.zig"
             ],
             "settings": {
                 "foreground": "#ffd900",
@@ -468,8 +501,6 @@
                 "constant.numeric.line-number.find-in-files - match",
                 "entity.name.class",
                 "entity.name.filename.find-in-files",
-                "entity.name.function",
-                "entity.name.function-call",
                 "entity.name.module",
                 "entity.name.tag.class",
                 "entity.name.tag.id",
@@ -581,7 +612,8 @@
                 "variable.css.string",
                 "variable.scss.string",
                 "variable.less.string",
-                "variable.sass.string"
+                "variable.sass.string",
+                "keyword.operator.arithmetic.zig"
             ],
             "settings": {
                 "foreground": "#ffffff"
