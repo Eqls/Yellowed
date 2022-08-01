@@ -6,9 +6,6 @@
         "editorCursor.foreground": "#ffd900",
         "editorLineNumber.activeForeground": "#ffd900",
         "editorLink.activeForeground": "#ffffff",
-        "editorError.foreground": "#00000000",
-        "editorWarning.foreground": "#00000000",
-        "editorInfo.foreground": "#00000000",
 
         "activityBar.activeBorder": "#0d56ca",
         "activityBar.background": "#2a2a2a",
