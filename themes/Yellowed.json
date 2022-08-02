@@ -365,7 +365,8 @@
         {
             "name": "Niagara",
             "scope": [
-                "entity.name.function"
+                "entity.name.function",
+                "support.class.component.tsx"
             ],
             "settings": {
                 "foreground": "#96a6c8"
