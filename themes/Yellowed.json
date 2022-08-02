@@ -6,7 +6,6 @@
         "editorCursor.foreground": "#ffd900",
         "editorLineNumber.activeForeground": "#ffd900",
         "editorLink.activeForeground": "#ffffff",
-
         "activityBar.activeBorder": "#0d56ca",
         "activityBar.background": "#2a2a2a",
         "activityBar.border": "#242424",
@@ -438,6 +437,7 @@
         {
             "name": "Yellow: Bold",
             "scope": [
+                "storage.type.interface",
                 "keyword.control",
                 "keyword.declaration.scala",
                 "keyword.declaration.volatile.scala",
