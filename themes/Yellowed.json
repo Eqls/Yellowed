@@ -337,7 +337,8 @@
             "scope": [
                 "keyword.type",
                 "constant.numeric",
-                "keyword.constant.default"
+                "keyword.constant.default",
+                "support.class.component"
             ],
             "settings": {
                 "foreground": "#95a99f"
@@ -365,8 +366,7 @@
         {
             "name": "Niagara",
             "scope": [
-                "entity.name.function",
-                "support.class.component.tsx"
+                "entity.name.function"
             ],
             "settings": {
                 "foreground": "#96a6c8"
