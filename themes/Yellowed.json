@@ -338,7 +338,24 @@
                 "keyword.type",
                 "constant.numeric",
                 "keyword.constant.default",
-                "support.class.component"
+                "support.class.component",
+                "meta.type.annotation",
+                "support.type.primitive",
+                "constant.character",
+                "constant.language",
+                "constant.language.c",
+                "constant.other",
+                "punctuation.definition.block.begin.hx",
+                "punctuation.definition.block.end.hx",
+                "punctuation.definition.interpolation.begin.cs",
+                "punctuation.definition.interpolation.end.cs",
+                "punctuation.definition.template-expression.begin.js",
+                "punctuation.definition.template-expression.end.js",
+                "punctuation.definition.variable.shell",
+                "punctuation.section.embedded.begin.ruby",
+                "punctuation.section.embedded.end.ruby",
+                "variable.parameter.dart",
+                "entity.name.type"
             ],
             "settings": {
                 "foreground": "#95a99f"
@@ -391,33 +408,10 @@
             }
         },
         {
-            "name": "Purple",
-            "scope": [
-                "constant.character",
-                "constant.language",
-                "constant.language.c",
-                "constant.other",
-                "punctuation.definition.block.begin.hx",
-                "punctuation.definition.block.end.hx",
-                "punctuation.definition.interpolation.begin.cs",
-                "punctuation.definition.interpolation.end.cs",
-                "punctuation.definition.template-expression.begin.js",
-                "punctuation.definition.template-expression.end.js",
-                "punctuation.definition.variable.shell",
-                "punctuation.section.embedded.begin.ruby",
-                "punctuation.section.embedded.end.ruby",
-                "variable.parameter.dart"
-            ],
-            "settings": {
-                "foreground": "#ff80f4"
-            }
-        },
-        {
             "name": "Yellow",
             "scope": [
                 "entity.name.tag",
                 "entity.name.tag.class.js",
-                "entity.name.type.kotlin",
                 "markup.quote.markdown",
                 "meta.if.declaration.matlab",
                 "meta.parameter-clause.swift",
@@ -504,8 +498,6 @@
                 "entity.name.module",
                 "entity.name.tag.class",
                 "entity.name.tag.id",
-                "entity.name.type",
-                "entity.name.type.cs",
                 "entity.other.attribute-name",
                 "function.support.builtin",
                 "function.support.core",
