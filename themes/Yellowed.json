@@ -432,6 +432,7 @@
         {
             "name": "Yellow: Bold",
             "scope": [
+                "storage.type.tsx",
                 "storage.type.interface",
                 "keyword.control",
                 "keyword.declaration.scala",
